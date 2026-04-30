@@ -76,13 +76,4 @@ model.summary()
 - Untuk eksperimen clustering, jalankan notebook Clustering lalu buka visualisasi PCA.
 - Jika dataset besar terasa lambat, coba subset data (mis. `df.sample(10000)`) saat eksplorasi awal.
 
-## Lanjutan & Kontribusi
-- Jika Anda ingin menambahkan: dokumentasikan perubahan di notebook baru, simpan model baru dengan nama deskriptif, dan tambahkan ringkasan hasil ke file `CHANGELOG.md`.
-- Ingin bantuan menjalankan eksperimen di Colab atau membuat UI interaktif? Saya bisa menyiapkan `requirements.txt`, skrip `run_experiment.py`, atau dashboard kecil menggunakan Streamlit.
-
 ---
-Versi ini dibuat untuk memudahkan pembaca menavigasi eksperimen dan mereproduksi hasil. Jika ingin, saya bisa:
-- Menambahkan `requirements.txt` dan skrip reproducible.
-- Menyiapkan badge 'Open in Colab' untuk setiap notebook.
-
-Perubahan ada di [README.md](README.md). Beri tahu saya opsi lanjutan mana yang Anda mau.
